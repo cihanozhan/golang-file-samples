@@ -11,6 +11,8 @@ func main() {
 
 	/*
 	   Uncompress a File
+	   Uncompress means = never compressed
+	   Decompress correct word.
 	*/
 
 	gzipFile, err := os.Open("test.txt.gz")
